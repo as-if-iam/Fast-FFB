@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:fillViewport="true"
+
+    >
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    tools:context="com.aslabs.main.fastffb.HelpAdvertisement"
+    android:background="@color/colorPrimaryDark"
+    >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/helpdownload"
+        android:layout_alignParentTop="true"
+        android:id="@+id/helptext2"
+        android:gravity="center_horizontal"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@android:color/white"/>
+
+    <com.google.android.gms.ads.AdView
+        android:layout_below="@+id/helptext2"
+        android:id="@+id/adView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-8371543090074322/5023685696"
+        android:padding="5dp"
+        android:background="@drawable/myborder"
+        >
+    <!--ads:adUnitId="ca-app-pub-8371543090074322/1165235698"-->
+
+    </com.google.android.gms.ads.AdView>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-8371543090074322/5023685696"
+        android:layout_below="@+id/adView"
+        android:layout_alignParentStart="true"
+        android:padding="5dp"
+        android:background="@drawable/myborder"
+        >
+
+    </com.google.android.gms.ads.AdView>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-8371543090074322/5023685696"
+        android:layout_below="@+id/adView1"
+        android:layout_alignParentStart="true"
+        android:padding="5dp"
+        android:background="@drawable/myborder"
+        >
+
+    </com.google.android.gms.ads.AdView>
+
+    <com.google.android.gms.ads.AdView
+    android:id="@+id/adView3"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    ads:adSize="BANNER"
+    ads:adUnitId="ca-app-pub-8371543090074322/5023685696"
+    android:layout_below="@+id/adView2"
+    android:layout_alignParentStart="true"
+    android:padding="5dp"
+    android:background="@drawable/myborder"
+        >
+
+</com.google.android.gms.ads.AdView>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-8371543090074322/5023685696"
+        android:layout_below="@+id/adView3"
+        android:layout_alignParentStart="true"
+        android:padding="5dp"
+        android:background="@drawable/myborder"
+        >
+
+    </com.google.android.gms.ads.AdView>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-8371543090074322/5023685696"
+        android:layout_below="@+id/adView4"
+        android:layout_alignParentStart="true"
+        android:padding="5dp"
+        android:background="@drawable/myborder"
+        >
+
+    </com.google.android.gms.ads.AdView>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView6"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-8371543090074322/5023685696"
+        android:layout_below="@+id/adView5"
+        android:layout_alignParentStart="true"
+        android:padding="5dp"
+        android:background="@drawable/myborder"
+        >
+
+    </com.google.android.gms.ads.AdView>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView7"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-8371543090074322/5023685696"
+        android:layout_below="@+id/adView6"
+        android:layout_alignParentStart="true"
+        android:padding="5dp"
+        android:background="@drawable/myborder"
+        >
+
+    </com.google.android.gms.ads.AdView>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView8"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-8371543090074322/5023685696"
+        android:layout_below="@+id/adView7"
+        android:layout_alignParentStart="true"
+        android:padding="5dp"
+        android:background="@drawable/myborder"
+        >
+
+    </com.google.android.gms.ads.AdView>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="PRESS BACK TO GO BACK"
+        android:id="@+id/helptext3"
+        android:gravity="center_horizontal"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/adView8"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Click on corner of ADV. to disable it if you dont want to see that Adv."
+        android:id="@+id/helptext4"
+        android:gravity="center_horizontal"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/helptext3"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="mail|Suggestion|Errors|Feedback"
+        android:id="@+id/helptext5"
+        android:gravity="center_horizontal"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/helptext4"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="(asif.2013.ansari@gmail.com) "
+        android:id="@+id/helptext6"
+        android:gravity="center_horizontal"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/helptext5"/>
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Mail For Adv. free FREE version"
+        android:id="@+id/helptext8"
+        android:gravity="center_horizontal"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/helptext6"/>
+
+</RelativeLayout>
+</ScrollView>

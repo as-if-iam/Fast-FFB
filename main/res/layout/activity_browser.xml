@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/layouttop"
+        android:layout_width="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_height="wrap_content"
+        android:weightSum="5">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="CLICK HERE FOR SUPPORT"
+            android:layout_alignParentTop="true"
+            android:id="@+id/helptext"
+            android:gravity="center_horizontal"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@android:color/white"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/et_home"
+            android:text="''HOME''"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center_horizontal"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:id="@+id/et_upload"
+            android:text="''UPLOAD''"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center_horizontal"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@android:color/white"/>
+
+
+
+    </LinearLayout>
+
+
+    <WebView
+        android:layout_below="@+id/layouttop"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/webView"
+    xmlns:android="http://schemas.android.com/apk/res/android" />
+
+</RelativeLayout>
